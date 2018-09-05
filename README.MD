@@ -1,6 +1,6 @@
 <b>Loading Data</b>
 
-The script loads all fo the test and train files of the UCI HAR Dataset as well as its activity labels and features files
+The run_analysis.R script loads all fo the test and train files of the UCI HAR Dataset as well as its activity labels and features files
 
 <b>Merging Data</b>
 
