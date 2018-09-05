@@ -4,11 +4,11 @@ The run_analysis.R script loads all fo the test and train files of the UCI HAR D
 
 <b>Merging Data</b>
 
-The training and test data is merged together.  The associated label and and subject training and test data is merged together as well and stored in separate variables.
+The training and test data is then merged together.  The associated label and and subject training and test data is merged together as well and stored in separate variables.
 
 <b>Extracting a Subset</b>
 
-A subset of the merged data is created by extracting the mean and standard deviation variables for each measurement.  This is done by seraching the features data and extracting only those variable names that have "mean" and "std" in the name, but don't have any other words such as "Freq" included.
+A subset of the merged data is created by extracting the mean and standard deviation variables for each measurement.  This is done by searching the features data and extracting only those variable names that have "mean" and "std" in the name, but don't have any other words such as "Freq" included.
 The appropriate columns are then extracted from the merged data set.
 
 <b>Describing Activities</b>
